@@ -1,5 +1,11 @@
 # Java Connection to Elasticache(Redis) with AUTH Enabled
 
+0. Maker sure you can connect through `redis-cli`. 
+
+```
+redis-cli -h test-0001-001.test.07gt2w.apse1.cache.amazonaws.com --tls -p 6379 -a HereIsMyAuthToken
+```
+
 1. Check java and javac available.
 
 ```
